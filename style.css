@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(0, 0%, 95%);
+}
+
+span {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 35px;
+  position: relative;
+  top: 30px;
+}
+
+p {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 25px;
+}
+
+/* Main Container */
+.main-container {
+  margin: 170px auto;
+  max-width: 1000px;
+}
+
+.box {
+  float: left;
+  width: 32%;
+  font-size: 15px;
+  padding: 40px 50px 40px 50px;
+}
+
+/* Sedan Suvs Luxury Containers */
+.sedans-container {
+  height: auto;
+  background: hsl(31, 77%, 52%);
+  border-radius: 7px 0 0 7px;
+}
+
+.suvs-container {
+  background: hsl(184, 100%, 22%);
+  height: auto;
+}
+
+.luxury-container {
+  background: hsl(179, 100%, 13%);
+  height: auto;
+  border-radius: 0 7px 7px 0;
+}
+
+/* Button settings */
+
+.btn {
+  padding: 10px 15px;
+  border: 2px solid hsl(0, 0%, 95%);
+  border-radius: 100px;
+  background-color: hsl(0, 0%, 95%);
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: hsl(0, 0%, 95%);
+  background-color: inherit;
+}
+
+.sedans {
+  color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  color: hsl(179, 100%, 13%);
+}
+
+/* Attributtion*/
+.attribution{
+  color: black;
+  font-size: 11px;
+  text-align: center;
+padding-top: 2%;
+}
+.attribution a{
+  display: inline-block;
+  text-decoration: none;
+
+
+}
+.atr:after{
+  display: table;
+  content: "";
+  clear: both;
+}
+
+/* @media */
+
+
+
+@media(max-width:992px) {
+  .box {
+    width: 100%;
+  }
+}
+
+@media(max-width:412px) {
+  .box {
+    width: 100%;
+  }
+
+  .luxury-container {
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .sedans-container {
+    border-radius: 10px 10px 0px 0px;
+  }
+}
